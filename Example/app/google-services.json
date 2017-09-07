@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "202877477493",
+    "firebase_url": "https://tollyteaser-2f8cf.firebaseio.com",
+    "project_id": "tollyteaser-2f8cf",
+    "storage_bucket": "tollyteaser-2f8cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202877477493:android:aa8f5f8622adc993",
+        "android_client_info": {
+          "package_name": "co.onmymobile.tollyteaser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202877477493-lh4biv5dpg2g2pumfluu0rt0hdksomat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2IiwspoEFOcd8VpawZFZtw3kiyGDMvlo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202877477493:android:fa6c9f57f2c2ee71",
+        "android_client_info": {
+          "package_name": "com.scienstechnologies.tollyteaser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202877477493-lh4biv5dpg2g2pumfluu0rt0hdksomat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2IiwspoEFOcd8VpawZFZtw3kiyGDMvlo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

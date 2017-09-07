@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">wifiApp</string>
+
+    <string name="successRecharge">Congratulations !! you have been successfully recharged.</string>
+    <string name="uploadContacts">Do you want to upload your contacts ?</string>
+    <string name="notValidVocher">Not a valid vocher</string>
+    <string name="registerWithBsnl">Please register your mobile number with BSNL</string>
+    <string name="alreadyRedeemed">You have already redeemed your coupon !</string>
+    <string name="redeemed">Already Redeemed </string>
+    <string name="somethingWentWrong">Some thing went wrong ! Please re-open your app after some time .</string>
+    <string name="couponsUnavailable">Sorry for the inconvenience caused ! Due to high demand,currently coupons are  unavailable right now. Please try after some time.</string>
+    <string name="server_error">Server Error! Please try again !!</string>
+    <string name="successfully_uploaded">Successfully Uploaded!</string>
+    <string name="please_wait_access">Please wait while we access your location !</string>
+    <string name="locations_csv">locations.csv</string>
+    <string name="please_wait">Please wait...</string>
+
+
+</resources>

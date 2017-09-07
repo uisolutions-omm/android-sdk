@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "300144860602",
+    "firebase_url": "https://sdkproject-8f693.firebaseio.com",
+    "project_id": "sdkproject-8f693",
+    "storage_bucket": "sdkproject-8f693.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300144860602:android:e0396e78dab49821",
+        "android_client_info": {
+          "package_name": "co.onmymobile.wifimodule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300144860602-km79fc8kp3e841m5ko3ee8celtgibjs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDanw7b2frEU1iX52mkicizOrBeKFVRyUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

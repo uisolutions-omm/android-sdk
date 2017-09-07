@@ -31,7 +31,7 @@ These are the minimal steps required to integrate the adjust SDK into your Andro
  ![image5](https://user-images.githubusercontent.com/18575369/30160025-5e8a17e0-93e8-11e7-9e33-d317b7039cdb.JPG)
   
   - Add the following line in your first run to recharge your clients with data
-     ```sh 
+  ```sh
    BranchActivity.branchInitialization(getApplicationContext());
-   ```
+  ```
  ![image6](https://user-images.githubusercontent.com/18575369/30160030-63a50dd4-93e8-11e7-9401-455b6b11012e.JPG)

@@ -65,7 +65,7 @@ public class BranchActivity extends AppCompatActivity implements Constants {
                         SdkLogger.e(Constants.BRANCHPARAM_ISWIFI);
 
                         if (referringParams.has(Constants.BRANCHPARAM_ISWIFI)) {
-                            if (!referringParams.has(Constants.BRANCHPARAM_MOBILE)) {
+                            if (referringParams.has(Constants.BRANCHPARAM_MOBILE)) {
                                 WifiAppPreferences.add(WifiAppPreferences.PrefType.phnum, referringParams.getString("mobileNumber"), context1.getApplicationContext());
                                 if (referringParams.getString(Constants.BRANCHPARAM_CHECKINNOW).equals("true")) {
 
@@ -103,9 +103,9 @@ public class BranchActivity extends AppCompatActivity implements Constants {
 
                                     WifiAppPreferences.add(WifiAppPreferences.PrefType.checkInLater, Constants.PARAM_YES, context1);
                                     Intent intent = new Intent(context1, BsnlWifiActivity.class);
-                                    intent.putExtra(Constants.WIFIPARAM_MOBILE, "9999999999");
+                                    intent.putExtra(Constants.WIFIPARAM_MOBILE, referringParams.getString(Constants.BRANCHDONATIONPARAMMOBILE));
                                     intent.putExtra(Constants.FIRST_RUN, Constants.TRUE);
-                                    //intent.putExtra("mobile", referringParams.getString(Constants.BRANCHDONATIONPARAMMOBILE));
+                                  
                                     intent.putExtra(WIFIPARAM_PACKAGENAME, packageName);
                                    SdkHelper.dismissProgressDialog();
                                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
